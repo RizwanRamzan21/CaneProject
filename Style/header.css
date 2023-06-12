@@ -1,0 +1,274 @@
+
+
+/* top */
+header-drawer {
+    justify-self: start;
+    
+  }.scrolled-past-header .header__heading-logo-wrapper {
+      width: 75%;
+    }@media screen and (min-width: 990px) {
+      header-drawer {
+        display: none;
+      }
+    }.menu-drawer-container {
+    display: flex;
+  }
+
+  .list-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .list-menu--inline {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+
+  summary.list-menu__item {
+    padding-right: 2.7rem;
+  }
+
+  .list-menu__item {
+    display: flex;
+    align-items: center;
+    line-height: calc(1 + 0.3 / var(--font-body-scale));
+  }
+
+  .list-menu__item--link {
+    text-decoration: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
+  }
+
+  @media screen and (min-width: 750px) {
+    .list-menu__item--link {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+    }
+  }
+
+
+.section-header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.3;
+}
+
+.section-header.shopify-section-group-header-group.section-header {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      
+      position: fixed;
+      left: 0;
+      
+      width: 100%;
+      height: auto;
+}
+
+nav.header__inline-menu {
+    display: flex;
+    justify-content: end;
+}
+
+.color-transparent-bg.gradient {
+    background: transparent;
+}
+
+
+  
+  .header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+   
+  }
+
+  .section-header {
+    position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
+    margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-header {
+      margin-bottom: 0px;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .header {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+
+
+
+/* additional */
+
+header.header.header--middle-left.header--mobile-center.page-width.header--has-menu {
+    display: grid;
+    grid-template-areas: "left-icons heading icons";
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+
+
+
+.header__icons {
+    display: flex;
+    grid-area: icons;
+    justify-self: end;
+    gap: 28px;
+}
+.header__heading-logo {
+    height: auto;
+    max-width: 100%;
+}
+
+
+  .custom-container {
+    max-width: 1285px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+
+
+.color-transparent-bg.gradient {
+    background: transparent;
+}
+
+a.header__menu-item.list-menu__item , a.header__menu-item.list-menu__item span , nav.menu-drawer__navigation .list-menu__item {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    text-decoration: none;
+}
+
+details-modal.header__search {
+    display: none !important;
+}
+
+h2.footer-block__heading {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    color: #000000;
+    text-transform: uppercase;
+}
+
+a.link.link--text.list-menu__item.list-menu__item--link {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    color: #4C4C4C;
+}
+
+.header__icon--menu path {stroke: white;}
+
+ul.dropdown-menu.dropdown-menu-mini-cart {
+  list-style: none;
+}
+ul#menu-header-menu {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+ul#menu-header-menu li {
+  list-style: none;
+}
+ul#menu-header-menu li a {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+}
+ul#menu-header-menu-1 li {
+  list-style: none;
+}
+ul#menu-header-menu-1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+ul#menu-header-menu-1 li a {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-decoration: none;
+}
+@media screen and (max-width: 990px) {
+  nav.header__inline-menu {
+      display: none !important;
+  }a.header__icon.header__icon--account.link.focus-inset.small-hide {
+    display: none;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  h2.footer-block__heading {
+    font-size: 14px;
+  }
+  
+  a.link.link--text.list-menu__item.list-menu__item--link {
+      font-size: 13px;
+      line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 990px){
+.header--middle-left {
+    grid-template-areas: "heading navigation icons";
+    grid-template-columns: auto 10fr 1fr;
+    column-gap: 2rem;
+}.header--middle-left{
+    display: grid;
+    align-items: center;
+    padding: 0 20px;
+  
+}
+}
+
+
+
+
+
+
+ .header__icon span {
+    height: 100%;
+}
+.header__icon:not(.header__icon--summary), .header__icon span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.no-js details[open]>.menu-drawer, .js details[open].menu-opening>.menu-drawer, details[open].menu-opening>.menu-drawer__submenu {
+    transform: translate(0);
+    visibility: visible;
+}

@@ -1,0 +1,324 @@
+body{
+    margin: 0px;
+}
+.custom-container {
+    max-width: 1285px;
+    padding: 0 20px;
+    margin: auto;
+}
+/*-------------------------- shop Headeing Section css Start ------------------------------------*/
+h3.heading-main-sec {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 207px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000000;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+.section-template--18963768049983__82036d82-0e07-4ae4-928d-de15988fbb3d-padding {
+  padding-top: 18px;
+  padding-bottom: 60px;
+  background:#fef7e6;
+}
+
+
+@media screen and (min-width: 750px) {
+  .section-template--18963768049983__82036d82-0e07-4ae4-928d-de15988fbb3d-padding {
+    padding-top: 24px;
+    padding-bottom: 80px;
+  }
+}
+
+
+
+/*--------------------------shop Headeing Section css End ------------------------------------*/
+
+
+
+
+/*-------------------------- shop IMage   Section css Start ------------------------------------*/
+
+
+
+  .section--template--18963768049983__a3bbcec1-e249-436f-8b6c-b691e5de28a8 {
+    background: #fef7e6;
+  }
+
+  .gif-container {
+    display: flex;
+  }
+  
+  img.gif-image {
+      width: 100%;
+      height: auto;
+  }
+
+  @media screen and (max-width: 1040px) {
+    .animated-gif.section-template--19077443223871__4c448966-4535-4641-8762-e27c827e4d07-padding {
+        padding-top: 60px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    h3.heading-main-sec {
+        font-size: 100px;
+        max-width: 625px;
+        line-height: 140px;
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 430px) {
+    h3.heading-main-sec {
+        font-size: 60px;
+        max-width: 400px;
+        line-height: 80px;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    h3.heading-main-sec {
+        font-size: 40px;
+        max-width: 300px;
+        line-height: 60px;
+    }
+  }
+
+  .section-template--18963768049983__a3bbcec1-e249-436f-8b6c-b691e5de28a8-padding {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: #fef7e6;
+  }
+  .section-template--18963768082751__1beddabe-4cf9-4462-9cae-23a3698a7c63-padding{
+    background: #fef7e6 !important;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-template--18963768049983__a3bbcec1-e249-436f-8b6c-b691e5de28a8-padding {
+      padding-top: 36px;
+      padding-bottom: 36px;
+    }
+  }
+
+
+
+  /*--------------------------shop IMage  Section End ------------------------------------*/
+
+
+  img.product-image {
+    width: 100%;
+}
+button.add-to-cart img {
+  width: 100%;
+}
+
+  /*--------------------------shop Slider  Section css Start ------------------------------------*/
+
+
+.recommended-products {
+    padding: 28.82px 0 40.39px;
+}
+  
+h3.heading-section-md {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8rem;
+}
+
+.product-information-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.recommended-slide-sigle-product {
+    position: relative;
+}
+
+.product-information-mini-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h5.product-title-md {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+p.on-product-text-and-price {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.product-title-and-price {
+    margin-top: 17.52px;
+}
+
+button.btn-label-product {
+    width: 156.97px;
+    height: 38.5px;
+    background: #FFFFFF;
+    border-radius: 300px;
+    border: none;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+/* identical to box height */
+    color: #000000;
+}
+
+button.add-to-cart {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect-button-and-add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12.73px;
+}
+
+button.btn-label-product , button.add-to-cart {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button.add-to-cart:hover {
+    transform: rotate(45deg);
+}
+
+button.btn-label-product:hover, button.add-to-cart:hover {
+    opacity: 0.95;
+}
+
+button.recommended-next , button.recommended-prev {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button.recommended-next img , button.recommended-prev img {
+    width: 100%;
+    height: 100%;
+    max-width: 48px;
+    max-height: 46px;
+}
+
+.nav-recommended-container {
+    display: flex;
+    align-items: center;
+    gap: 42.32px;
+    justify-content: center;
+    margin-bottom: 32.41px;
+}
+
+button.btn-label-collection {
+    width: fit-content;
+    height: 46.06px;
+    padding: 0 17px;
+    background: #FF9333;
+    border-radius: 300px;
+    border: none;
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+/* identical to box height */
+    color: #FEF7E6;
+    cursor: pointer;
+}
+
+.recommended-products-slider-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.nav-recommended-products-slider {
+    margin-top: 67px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-recommended-container {
+    gap: 10px;
+  }
+  
+  h5.product-title-md {
+    font-size: 20px;
+    line-height: inherit;
+    margin: 0;
+  }
+  
+  p.on-product-text-and-price {
+    font-size: 12px;
+    line-height: inherit;
+  }
+
+  h3.heading-section-md {
+    font-size: 38px;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 520px) {  
+  .recommended-products-slider-container {
+      max-width: 380px;
+      margin: auto;
+  }
+
+  h3.heading-section-md {
+    font-size: 28px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  h3.heading-section-md {
+    font-size: 24px;
+  }
+
+  button.btn-label-collection {
+    font-size: 14px;
+  }
+}
+
+
+ 

@@ -1,0 +1,220 @@
+ul#menu-quick-links-1, ul#menu-quick-links-2, ul#menu-quick-links-3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.xyz{
+    font-size: 40px;
+    color: red;
+}
+ul#menu-quick-links-1 li a, ul#menu-quick-links-2 li a, ul#menu-quick-links-3 li a {
+    font-family: Alata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px !important;
+    color: #4c4c4c;
+    text-decoration: none;
+}
+
+/* joker sec */
+
+.section-template--18963768082751__1beddabe-4cf9-4462-9cae-23a3698a7c63-padding {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+
+
+
+@media screen and (min-width:750px){
+    .section-template--18963768082751__1beddabe-4cf9-4462-9cae-23a3698a7c63-padding {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+}
+
+.gif-container img{
+    width: 100% !important;
+}
+
+
+
+
+/* footer css start */
+.section--template--18963768082751__5cf6b410-88e5-4b58-be16-3a7109c20337 {
+    background: #e9e9e9;
+  }
+
+  a.link-signup , h3.email-collector-heading {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+a.link-signup img {
+    width: 100%;
+    height: auto;
+    max-width: 30px;
+}
+
+.flex-heading-space-between {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0 3rem;
+}
+
+.email-collector {
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  a.link-signup, h3.email-collector-heading {
+    font-size: 18px;
+  }
+  
+  a.link-signup img {
+      max-width: 20px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .flex-heading-space-between {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 520px) and (min-width: 370px) {
+  a.link-signup, h3.email-collector-heading {
+    font-size: 14px;
+  }
+}
+  
+@media screen and (max-width: 370px) {
+  a.link-signup, h3.email-collector-heading {
+    font-size: 12px;
+  }
+}
+
+
+/* footer css End  */
+
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.color-custom-color {
+    background: #E9E9E9;
+}
+h2.footer-block__heading {
+    font-family: Alata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+}
+.footer-block__details-content {
+    margin-bottom: 4rem;
+}
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+span.link.link--text.list-menu__item.list-menu__item--link {
+    font-family: Alata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4c4c4c;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+link.link--text.list-menu__item.list-menu__item--link {
+    font-family: Alata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4c4c4c;
+}
+.list-menu__item--link {
+    text-decoration: none;
+
+}
+.footer__content-top {
+    padding-bottom: 5rem;
+    display: block;
+}
+.list-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10.93px;
+}
+span.visually-hidden {
+    display: none;
+}
+
+.footer-block__heading {
+    margin-bottom: 2rem;
+    margin-top: 0;
+   
+}
+
+
+@media screen and (min-width: 750px){
+.footer-block__details-content {
+    margin-bottom: 0;
+}.footer-block__details-content>:first-child .list-menu__item--link{
+    padding-top: 0;  
+    display: inline-block;
+}ul.footer-block__details-content.list-unstyled li {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+}
+@media screen and (max-width: 1024px){
+h2.footer-block__heading {
+    font-size: 14px;
+}link.link--text.list-menu__item.list-menu__item--link{
+    font-size: 13px;
+    line-height: 18px;
+}
+}
+/* @media only screen and (max-width: 750px) */
+@media screen and (max-width:750px){
+    #footer_check{
+        display: block !important;
+        padding-top: 1px !important;
+    }
+    .footer-block.grid__item {
+        padding: 0;
+        margin: 4rem 0;
+        width: 100%;
+    }
+    ul.footer-block__details-content.list-unstyled li{
+        padding-top: 5px;
+        padding-bottom: 5px; 
+    }.leaf--image_8187d89c-8f86-483c-aa00-6edb4eff72eb{
+        bottom: 0rem;
+    }
+}
+
